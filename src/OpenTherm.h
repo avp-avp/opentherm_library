@@ -1,14 +1,25 @@
 /*
-OpenTherm.h - OpenTherm Library for the ESP8266/ESP32/Arduino platform
-https://github.com/ihormelnyk/OpenTherm
-http://ihormelnyk.com/pages/OpenTherm
-Licensed under MIT license
-Copyright 2023, Ihor Melnyk
-
-Frame Structure:
-P MGS-TYPE SPARE DATA-ID  DATA-VALUE
-0 000      0000  00000000 00000000 00000000
-*/
+ * OpenTherm Library
+ * Original Author: Ihor Melnyk (https://github.com/ihormelnyk/opentherm_library)
+ * 
+ * Copyright (c) 2019 Ihor Melnyk
+ * MIT License
+ * 
+ * This software is released under the MIT License.
+ * https://opensource.org/licenses/MIT
+ *
+ * ---------------------------------------------
+ * Modifications and improvements by Alex Pavlov
+ * Copyright (c) 2025 Alex Pavlov
+ *
+ * Description of changes:
+ * - Added support for ESP32 RMT peripheral for OpenTherm communication in Arduino environment.
+ *   (https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/peripherals/rmt.html)
+ 
+ * Frame Structure:
+ * P MGS-TYPE SPARE DATA-ID  DATA-VALUE
+ * 0 000      0000  00000000 00000000 00000000
+ */
 
 #ifndef OpenTherm_h
 #define OpenTherm_h
