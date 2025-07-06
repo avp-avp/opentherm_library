@@ -1,3 +1,26 @@
+# OpenTherm Library
+
+Fork of the original [OpenTherm Library](https://github.com/ihormelnyk/opentherm_library) by Ihor Melnyk.
+
+This library implements the OpenTherm communication protocol for Arduino-compatible platforms.
+
+---
+
+## ✅ Modifications in this fork:
+- Added support for **ESP32 RMT peripheral** to handle OpenTherm communication in Arduino environment.
+- Allows efficient and accurate signal timing using the RMT hardware of ESP32.
+- Based on the official ESP-IDF RMT driver:
+  [ESP-IDF RMT Documentation](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/peripherals/rmt.html)
+
+This makes the library compatible with ESP32 boards running the **Arduino framework** (via [ESP32 Arduino Core](https://github.com/espressif/arduino-esp32)).
+
+---
+
+## ⚠️ License:
+This project is released under the MIT License.  
+
+Original copyright:
+
 # OpenTherm Arduino/ESP32 Library with [RMT](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/peripherals/rmt.html#rmt-rmt-encoder) support
 
 This library provides implementation of OpenTherm protocol.
