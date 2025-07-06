@@ -1,7 +1,21 @@
 /*
-OpenTherm.cpp - OpenTherm Communication Library For Arduino, ESP8266, ESP32
-Copyright 2023, Ihor Melnyk
-*/
+ * OpenTherm Library
+ * Original Author: Ihor Melnyk (https://github.com/ihormelnyk/opentherm_library)
+ * 
+ * Copyright (c) 2019 Ihor Melnyk
+ * MIT License
+ * 
+ * This software is released under the MIT License.
+ * https://opensource.org/licenses/MIT
+ *
+ * ---------------------------------------------
+ * Modifications and improvements by Alex Pavlov
+ * Copyright (c) 2025 Alex Pavlov
+ *
+ * Description of changes:
+ * - Added support for ESP32 RMT peripheral for OpenTherm communication in Arduino environment.
+ *   (https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/peripherals/rmt.html)
+ */
 
 #include "OpenTherm.h"
 #if !defined(__AVR__)
