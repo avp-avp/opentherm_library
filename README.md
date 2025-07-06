@@ -1,4 +1,4 @@
-# OpenTherm Arduino/ESP8266/ESP32 Library
+# OpenTherm Arduino/ESP32 Library with [RMT](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/peripherals/rmt.html#rmt-rmt-encoder) support
 
 This library provides implementation of OpenTherm protocol.
 
